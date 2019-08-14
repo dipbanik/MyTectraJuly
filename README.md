@@ -10,6 +10,8 @@ Python -
 
 Data_Manipulation - 
 
+Pickle - https://towardsdatascience.com/a-flask-api-for-serving-scikit-learn-models-c8bcdaa41daa
+
 Visualization -
 
 Data_Preprocessing_and_Bias_Variance -
