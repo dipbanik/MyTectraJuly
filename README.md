@@ -15,3 +15,12 @@ Visualization -
 Data_Preprocessing_and_Bias_Variance -
 
 Metrices -
+
+Regression -
+
+Classification -
+
+Pickle - https://scikit-learn.org/stable/modules/model_persistence.html
+
+API and pickle - https://towardsdatascience.com/a-flask-api-for-serving-scikit-learn-models-c8bcdaa41daa
+
