@@ -14,7 +14,7 @@ Visualization -
 
 Data_Preprocessing_and_Bias_Variance -
 
-Metrices -
+Metrices - https://medium.com/thalus-ai/performance-metrics-for-classification-problems-in-machine-learning-part-i-b085d432082b
 
 Regression -
 
