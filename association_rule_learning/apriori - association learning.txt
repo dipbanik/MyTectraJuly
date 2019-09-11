@@ -1,0 +1,34 @@
+Apriori Algorithm - Support, Confidence, Lift
+(similar to naive bayes classifiers)
+
+Movie Recommendations : Support(M) = # user watchlists containing M / # user watchlists
+
+10/100 = 10%
+
+nothing less than 20%
+
+Market Basket Optimisation : Support (I) = # transactions containg I / # transactions
+
+Movie Recommendations : confidence(M1 -> M2) = # user watchlists contains M1 & M2 / # user watchlists containing M1
+7/40 = 17.5%
+
+nothing less than 12-15%
+
+Market Basket Optimisation : confidence(l1->l2) = # transactions contaiing l1 & l2 / # transactions containing l2
+
+
+
+Movie Recommendations : Lift ( M1 -> M2 ) = confidence (M1 -> M2 ) / support (M2)
+17.5/10 = 1.75
+
+rule with the highest lift is the strongest rule
+
+Market Basket Optimisation :  lift (l1 -> l2 )  = confidence(l1 -> l2) / support(l2)
+
+Step 1 : Set a minimum support and confidence
+
+Step 2 : Take all the subsets in transactions having higher support than minimum support
+
+Step 3 : Take all the rules of these subseta having higher confidence than minimum confidence
+
+Step 4 : Sort the rules by decreasing lift
