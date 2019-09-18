@@ -1,0 +1,10 @@
+Linear Discriminant Analysis(LDA) is a supervised algorithm.
+
+We look for the class separation of the data.
+
+
+Compute the d-dimensional mean vectors for the different classes from the dataset.
+Compute the scatter matrices (in-between-class and within-class scatter matrix).
+Compute the eigenvectors (ee1,ee2,...,eed) and corresponding eigenvalues (λλ1,λλ2,...,λλd) for the scatter matrices.
+Sort the eigenvectors by decreasing eigenvalues and choose k eigenvectors with the largest eigenvalues to form a d×k dimensional matrix WW (where every column represents an eigenvector).
+Use this d×k eigenvector matrix to transform the samples onto the new subspace. This can be summarized by the matrix multiplication: YY=XX×WW (where XX is a n×d-dimensional matrix representing the n samples, and yy are the transformed n×k-dimensional samples in the new subspace).
