@@ -1,6 +1,10 @@
-Linear Discriminant Analysis(LDA) is a supervised algorithm.
+﻿Linear Discriminant Analysis(LDA) is a supervised algorithm for classification problems.
 
 We look for the class separation of the data.
+
+Number of eigen vectors is n-1 where n is the number of classes.
+
+This is highly effective in case of multiple-class classification.
 
 
 Compute the d-dimensional mean vectors for the different classes from the dataset.
