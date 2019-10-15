@@ -29,6 +29,6 @@ Step 1 : Set a minimum support and confidence
 
 Step 2 : Take all the subsets in transactions having higher support than minimum support
 
-Step 3 : Take all the rules of these subseta having higher confidence than minimum confidence
+Step 3 : Take all the rules of these subsets having higher confidence than minimum confidence
 
 Step 4 : Sort the rules by decreasing lift

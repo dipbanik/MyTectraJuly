@@ -1,0 +1,38 @@
+PCA - change dimensionality to smaller dimensions
+
+It uses correlation too identify the independent variables
+
+highly affected by outliers.
+
+When we have m independent variables, using PCA we can extract out p <= m new independent variables that can explain most of the variance of the dataset, regardless of the dependent variables.
+
+PCA is an unsupervised model.
+
+PCA is applied right after feature scaling and before you start training a model.
+
+
+
+
+
+Standardize the data
+
+Obtain the Eigenvectors and Eigenvalues from the covariance matrix or correlation matrix, or perform Singular Vector Decomposition.
+
+Sort eigenvalues in descending order and choose k eigenvectors that correspond to the k largest eigenvalues where k is the number of dimensions of the new feature subspace.(k<= d).
+
+Construct the projection matrix W from the selected k eigenvectors.
+
+Transform the original dataset X via W  to obtain a k-dimensional feature subspace Y.
+
+
+
+http://setosa.io/ev/principal-component-analysis/ 
+
+----------------------------------------------------------------------------------------------------------------------------
+------------------------------------------*****************************-----------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+
+Kernel PCA - 
+
+used for non linear problems/techniques. 
+

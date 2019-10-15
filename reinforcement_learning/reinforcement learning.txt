@@ -1,0 +1,9 @@
+Works with rewards and penalties.
+
+unsupervised algorithm.
+
+epsilon-greedy strategy - (epsilon = 20%) exploration/exploitation tradeoff
+
+take the best known action most of the time (say, 80% of the time), but occasionally explore a new, randomly selected direction even though it might be walking away from known reward.
+over time epsilon reduces.
+
