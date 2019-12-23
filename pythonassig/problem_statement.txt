@@ -1,0 +1,8 @@
+Write a python program which takes the data.txt file as the input and generates three output files 
+
+1. uniq.txt : file which contains all the unique lines of the file which are apperaing only once 
+
+2. dup.txt : file which contains single entry of all the duplicated lines which have more than one occurence
+
+3. sort.txt : file which contains all the employee records with out any duplicated sorted in descending order based on salary 
+   i.e employee with the highest salary shlould come first and lowest salary shlould be  the last entry .
