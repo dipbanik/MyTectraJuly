@@ -1,4 +1,9 @@
 # MyTectraJuly
+### by Diptangshu Banik
+
+<br>
+<br>
+
 
 This repo is for MyTectra students who have taken up AI-ML course with Python.
 
