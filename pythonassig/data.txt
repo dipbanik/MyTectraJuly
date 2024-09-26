@@ -1,0 +1,16 @@
+Name#age#company#gender#Salary
+sandy#32#Capgemini#M#45000
+anoop#36#HP#M#40000
+mahesh#34#oracle#M#53000
+priya#32#CGI#F#42000
+shiva#38#TM#F#50000
+sandy#32#Capgemini#M#45000
+jai#37#Infosys#M#39000
+mahesh#34#oracle#M#53000
+sandy#32#Capgemini#M#45000
+praveen#45#Capgemini#M#60000
+haripriya#42#Infosys#F#47000
+shiva#38#TM#F#50000
+sandy#32#Capgemini#M#45000
+ravi#30#CGI#M#28000
+rohit#31#MTC#M#33000
